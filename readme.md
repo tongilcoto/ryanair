@@ -13,14 +13,14 @@ Ryanair web page has been modeled with 6 classes: RA_Search, RA_Timetable, RA_Se
 
 All these classes emulates every page present at flights booking flow
  
-All of them share a configuration file containing the finding keys that Selenium framework uses to find the desired element tha have to be managed following test objetives.
+All of them share a configuration file containing the finding keys that Selenium framework uses to find the desired element that have to be managed following test objetives.
 
-This method avoids touching the code upon a found bug. Also it gives a complete overview of the pages object model for the the
+This method avoids touching the code upon a found bug. Also it gives a complete overview of the pages object model
 
 
 ## Initial data configuration
 
-With such a a wide range of posibilities as a flight booking flow, this exercise uses a defaults data configuration file, in order to reduce data at the test case definition. Just for example names of all passengers
+With such a a wide range of possibilities as a flight booking flow, this exercise uses a defaults data configuration file, in order to reduce data at the test case definition. Just for example names of all passengers
  
  
 ## TDD
@@ -41,9 +41,10 @@ There are also some files at project directory:
 * behave's environment.py file
 * proof of concept files testing pages objects model
 
+## Notes of interest
 
-
-
+- Accesing ryanair.com/ie/en from Spain, ryaniar redirects the url to /es/es. So some more clicks were needed
+- Some limitations are writed down all along the code
 
 
 
