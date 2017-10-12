@@ -1,4 +1,3 @@
-import logging
 from behave import given, when, then, use_step_matcher
 from selenium.webdriver.common.keys import Keys
 from sut.cSearch import RA_Search

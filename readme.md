@@ -1,6 +1,6 @@
 # RYANAIR WEB TEST
 
-## INTRODUCTION
+## Introduction
 
 This exercise has been made in order to accomplish QA Automation position tasks
 
@@ -20,7 +20,7 @@ This method avoids touching the code upon a found bug. Also it gives a complete 
 
 ## Initial data configuration
 
-With such a a wide range of possibilities as a flight booking flow, this exercise uses a defaults data configuration file, in order to reduce data at the test case definition. Just for example names of all passengers
+With such a a wide range of possibilities as a flight booking flow, this exercise uses a defaults data configuration file, in order to reduce data at the test case definition. Just for example, names of all passengers
  
  
 ## TDD
@@ -38,13 +38,21 @@ The files are distributed through 3 directories
 
 There are also some files at project directory:
 * configuration file
-* behave's environment.py file
+* behave's environment.py file. Using 
 * proof of concept files testing pages objects model
 
 ## Notes of interest
 
-- Accesing ryanair.com/ie/en from Spain, ryaniar redirects the url to /es/es. So some more clicks were needed
+- Accesing ryanair.com/ie/en from Spain, ryanair redirects the url to /es/es. So some more clicks were needed
 - Some limitations are writed down all along the code
+- Passengers data must be filled in advance at defaults configuration file
+- Google account credentials must be filled in advance at defaults config file. (They are delivered empty)
+- Flights available for the day are just selected by position, not time info is processed
+- Tariffs available for the selected flight are just selected by position, not tariff info is processed
+- Seats are selected checking its position in screen allowing to click them without moving the screen
+- Reserved seats are filterd out and cannot be selected
+
+
 
 
 
