@@ -31,6 +31,17 @@ The more complicated declaration is flight configuration: go or return? so do yo
 
 This exercise uses Python's Behave TDD framework. This framework allows powerful regular expressions that are managed in order to get all these details, although some of them are also supported by defaults values at the configuration file as explained before
 
+The files are distributed through 3 directories
+* features: Files containing tests declarations using Gherkin language
+* steps: Files containing python code that translate Gherkin language into pages objects language, delivering tests steps implementation
+* sut: pages object classes and configuration file
+
+There are also some files at project directory:
+* configuration file
+* behave's environment.py file
+* proof of concept files testing pages objects model
+
+
 
 
 
